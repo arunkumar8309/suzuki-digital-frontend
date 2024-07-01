@@ -13,7 +13,7 @@ const UserList = () => {
   const [userAllDetailData, setAllUserDetailData] = useState([]);
   const [rowToEdit, setRowToEdit] = useState(null);
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 2;
+  const itemsPerPage = 10;
 
   const fetchDataAndUpdate = async () => {
     try {
